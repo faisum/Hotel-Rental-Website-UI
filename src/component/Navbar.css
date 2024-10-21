@@ -1,0 +1,19 @@
+nav ul li{
+    list-style-type: none;
+    font-size: 22px;
+    color: white;
+    font-weight: lighter;
+    font-family: inter,sans-serif;
+    
+    
+}
+nav ul{
+    display: flex;
+    gap: 35px;
+    justify-content: center;
+    align-items: center;
+}
+nav ul img{
+    padding: 31px 135px 31px 4px;
+}
+
