@@ -2,15 +2,12 @@
    width: 198px;
    display: grid;
    grid-template-columns: auto auto auto;
+   justify-content: center;
+   align-items: center;
    gap: 45px;
  }
- .p3card{
-   border: 1px solid black;
-   background-color: aqua;
- }
 .p3m2img img{
-   width: 188px;
-   padding: 5px;
+   width: 235px;
  }
 
  .p3m{
@@ -18,8 +15,44 @@
    flex-direction: column;
    justify-content: center;
    align-items: center;
+   gap: 35px 65px;
+   margin: 95px 45px;
+   background-color: rgb(248, 246, 246);
+   padding: 5px;
  }
  .p3m1{
-   display: flex;
-   justify-content: space-between;
+  display: flex;
+  justify-content: space-around;
+  gap: 425px;
  }
+
+.p3m1c{
+  font-size: 25px;
+  font-weight: bolder;
+}
+.p3m1b button{
+  background-color: red;
+  padding: 7px;
+  border-radius: 2px;
+}
+.p3m2imgp1{
+  width: 15vw;
+  font-weight: bolder;
+  margin: 0 12px;
+}
+.p3m2imgp2{
+  font-weight: lighter;
+  color: rgb(83, 79, 79);
+  margin: 15px 12px;
+}
+.p3m2imgp3{
+  color: red;
+  font-weight: bolder;
+  margin: 10px 12px;
+}
+.p3card{
+  border: 1px solid rgb(245, 238, 238);
+}
+.p3m3 img{
+  width: 255px;
+}

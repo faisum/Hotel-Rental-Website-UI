@@ -4,6 +4,7 @@ import Navbar from './component/Navbar'
 import Content_1 from './component/Content_1'
 import P2 from './component/P2'
 import P3 from './component/P3'
+import P4 from './component/P4'
 
 function App() {
 
@@ -20,6 +21,9 @@ function App() {
       </div>
       <div className="p3">
         <P3/>
+      </div>
+      <div className="p4">
+        <P4/>
       </div>
       
     </>
