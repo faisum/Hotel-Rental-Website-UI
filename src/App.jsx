@@ -3,6 +3,7 @@ import './App.css'
 import Navbar from './component/Navbar'
 import Content_1 from './component/Content_1'
 import P2 from './component/P2'
+import P3 from './component/P3'
 
 function App() {
 
@@ -17,8 +18,10 @@ function App() {
       <div className="p2">
         <P2 />
       </div>
-
-
+      <div className="p3">
+        <P3/>
+      </div>
+      
     </>
   )
 }

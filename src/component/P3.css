@@ -1,0 +1,25 @@
+.p3m2{
+   width: 198px;
+   display: grid;
+   grid-template-columns: auto auto auto;
+   gap: 45px;
+ }
+ .p3card{
+   border: 1px solid black;
+   background-color: aqua;
+ }
+.p3m2img img{
+   width: 188px;
+   padding: 5px;
+ }
+
+ .p3m{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+ }
+ .p3m1{
+   display: flex;
+   justify-content: space-between;
+ }
